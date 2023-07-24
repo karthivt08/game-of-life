@@ -20,8 +20,8 @@ pipeline{
 stages {
     stage ('Source Code Checkout') {
         steps {
-            git branch: 'master'
-            url: https://github.com/karthivt08/game-of-life.git
+            git branch: 'master',
+            url: 'https://github.com/karthivt08/game-of-life.git'
         }
     }
 
